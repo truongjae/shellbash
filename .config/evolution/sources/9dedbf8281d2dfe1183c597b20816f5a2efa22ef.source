@@ -1,0 +1,57 @@
+[Data Source]
+DisplayName=truongjae@gmail.com
+Enabled=true
+Parent=157ea8b66b0f0788ccb482e023daaaf8ca790dc5
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=d1267a37c3215c3955529a07630511d7e56d4e5f
+ArchiveFolder=
+NeedsInitialSetup=true
+MarkSeen=inconsistent
+MarkSeenTimeout=1500
+
+[Authentication]
+Host=imap.gmail.com
+Method=XOAUTH2
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=truongjae@gmail.com
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Offline]
+StaySynchronized=false
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=
+RealTrashPath=
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=true
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=false
+UseRealTrashPath=false
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false
+FullUpdateOnMeteredNetwork=true

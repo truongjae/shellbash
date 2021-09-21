@@ -1,0 +1,46 @@
+[Data Source]
+DisplayName=Holidays in Vietnam
+Enabled=true
+Parent=157ea8b66b0f0788ccb482e023daaaf8ca790dc5
+
+[Authentication]
+Host=apidata.googleusercontent.com
+Method=OAuth2
+Port=443
+ProxyUid=system-proxy
+RememberPassword=true
+User=truongjae@gmail.com
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=tls
+
+[Resource]
+Identity=events::https://apidata.googleusercontent.com/caldav/v2/cln2stj9clq6sobdclpma8r8dtm6ip31f506esjfelo2sthecdgmopbechgn4bj7dtnmer355phmur8%40virtual/events/
+
+[WebDAV Backend]
+AvoidIfmatch=false
+CalendarAutoSchedule=true
+Color=#16a765
+DisplayName=Holidays in Vietnam
+EmailAddress=
+ResourcePath=/caldav/v2/cln2stj9clq6sobdclpma8r8dtm6ip31f506esjfelo2sthecdgmopbechgn4bj7dtnmer355phmur8%40virtual/events/
+ResourceQuery=
+SslTrust=
+
+[Calendar]
+BackendName=caldav
+Color=#16a765
+Selected=true
+
+[Alarms]
+IncludeMe=true
+LastNotified=2021-09-01T01:05:11.002350Z
+
+[Offline]
+StaySynchronized=true
+
+[Refresh]
+Enabled=true
+IntervalMinutes=30

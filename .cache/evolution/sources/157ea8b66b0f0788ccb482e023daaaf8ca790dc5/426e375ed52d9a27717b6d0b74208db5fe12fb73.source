@@ -1,0 +1,17 @@
+[Data Source]
+DisplayName=Contacts
+Enabled=true
+Parent=157ea8b66b0f0788ccb482e023daaaf8ca790dc5
+
+[Authentication]
+Host=www.google.com
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=truongjae@gmail.com
+CredentialName=
+IsExternal=false
+
+[Address Book]
+BackendName=google
